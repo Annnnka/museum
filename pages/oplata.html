@@ -1,0 +1,101 @@
+<head>
+    <title>Музей истории города Екатеринбурга</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css"/>
+    <link rel="icon" type="logo" href="../logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="../index.html"><img src="../logo.png" alt="logo" class="logotipp" width="300" height="100"></a>
+           <a ><h1 class="h1-logo">Музей истории города Екатеринбурга</h1></a>
+        </div>
+    </header>
+    <nav>
+        <ul class="top-menu">
+            <a href="../index.html"><li>Главная</li></a>
+            <a href="omyzee.html"><li>О музее</li></a >
+            <a href="project.html"><li>Проекты музея</li></a >
+            <a href="visitor.html"><li>Посетителям</li></a>
+            <a href="souvenir.html"><li>Сувенирная лавка</li></a>
+            <a href="#"><li>Дополнительные услуги</li></a>
+        </ul>
+    </nav>
+    <main>
+        <div class="container-opl">
+            <div id="form">
+              <form>
+                <div class="opl-margin">
+                  <label for="ticket-type">Тип билета:</label>
+                  <select id="ticket-type">
+                    <option value="единый">единый билет (250 руб.)</option>
+                    <option value="выставка">выставка (75 руб.)</option>
+                    <option value="экспозиция">экспозиция (100 руб.)</option>
+                  </select>
+                  <br />
+                </div>
+                <div class="opl-margin">
+                  <div id="additional-info">
+                    <label for="included">Что входит в стоимость билета:</label>
+                    <select id="included">
+                      <option value="включено">включено</option>
+                      <option value="не включено">не включено</option>
+                    </select>
+                    <br />
+                  </div>
+                  <div class="opl-margin">
+                    <label for="category">Категория билета:</label>
+                    <select id="category">
+                      <option value="взрослые, граждане РФ">
+                        взрослые, граждане РФ (250 или 75 или 100 руб.)
+                      </option>
+                      <option value="взрослые, иностранные граждане">
+                        взрослые, иностранные граждане (350 или 90 или 200 руб.)
+                      </option>
+                      <option
+                        value="дети от 7 до 18 лет, студенты очного отделения, пенсионеры, инвалиды"
+                      >
+                        дети от 7 до 18 лет, студенты очного отделения, пенсионеры,
+                        инвалиды (100 или 50 или 50 руб.)
+                      </option>
+                      <option value="дети до 7 лет">
+                        дети до 7 лет (бесплатно)
+                      </option>
+                    </select>
+                    <br />
+                  </div>
+                  <div class="opl-margin">
+                    <label for="quantity">Количество билетов:</label>
+                    <input type="number" id="quantity" value="1" min="1" />
+                    <br />
+                  </div>
+                  <div class="opl-margin">
+                    <label>Информация по оплате:</label>
+                    <p id="cost">Стоимость:</p>
+                    <p id="service-fee">Сервисный сбор:</p>
+                    <p id="total">Итого к оплате:</p>
+                  </div>
+                </div>
+              </form>
+              <button onclick="continuePurchase()">Продолжить покупку</button>
+            </div>
+          </div>
+    </main>
+    <footer>
+        <nav class="footer_nav">
+            <ul class="footer_ul">
+                <li class="footer_li"><a href="../index.html">Главная</a></li>
+                <li class="footer_li"><a href="omyzee.html">О музее</a></li>
+                <li class="footer_li"><a href="visitor.html">Посетителям</a></li>
+                <li class="footer_li"><a href="project.html">Проекты музея</a></li>
+                <li class="footer_li"><a href="souvenir.html">Сувенирная лавка</a></li>
+                <li class="footer_li"><a href="#">Дополнительные услуги</a></li>
+            </ul>
+        </nav>
+    </div>
+        <p>Телефон: 8 (800) 111-11-11</p>
+        <p>Музей Истории Екатеринбурга<br>
+            &copy; 2024 Все права защищены</p>
+        </footer>
+
+    </body>
+</html>
